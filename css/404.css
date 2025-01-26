@@ -1,0 +1,43 @@
+.two-section {
+    height: 170px;
+    width: 100%;
+
+}
+
+.wrapper {
+    filter: blur(10px);
+}
+
+
+.block-function {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    z-index: 999;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.h {
+    margin-top: 20px;
+}
+
+.p {}
+
+a {
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
