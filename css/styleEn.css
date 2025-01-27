@@ -311,7 +311,7 @@ body::-webkit-scrollbar-thumb {
     right: -20px;
     width: 120px;
     height: 120px;
-    background: url('/img/reason-1.png') center/cover no-repeat;
+    background: url('../img/reason-1.png') center/cover no-repeat;
     border-radius: 50%;
 }
 
@@ -326,7 +326,7 @@ body::-webkit-scrollbar-thumb {
     right: -20px;
     width: 120px;
     height: 120px;
-    background: url('/img/reason-2.png') center/cover no-repeat;
+    background: url('../img/reason-2.png') center/cover no-repeat;
     border-radius: 50%;
 }
 
@@ -341,7 +341,7 @@ body::-webkit-scrollbar-thumb {
     right: -20px;
     width: 120px;
     height: 120px;
-    background: url('/img/reason-3.png') center/cover no-repeat;
+    background: url('../img/reason-3.png') center/cover no-repeat;
     border-radius: 50%;
 }
 
@@ -356,7 +356,7 @@ body::-webkit-scrollbar-thumb {
     right: -20px;
     width: 120px;
     height: 120px;
-    background: url('/img/reason-4.png') center/cover no-repeat;
+    background: url('../img/reason-4.png') center/cover no-repeat;
     border-radius: 50%;
 }
 
@@ -371,7 +371,7 @@ body::-webkit-scrollbar-thumb {
     right: -20px;
     width: 120px;
     height: 120px;
-    background: url('/img/reason-5.png') center/cover no-repeat;
+    background: url('../img/reason-5.png') center/cover no-repeat;
     border-radius: 50%;
 }
 
@@ -386,7 +386,7 @@ body::-webkit-scrollbar-thumb {
     right: -20px;
     width: 120px;
     height: 120px;
-    background: url('/img/reason-6.png') center/cover no-repeat;
+    background: url('../img/reason-6.png') center/cover no-repeat;
     border-radius: 50%;
 }
 
