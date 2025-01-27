@@ -11,7 +11,7 @@ document
 
     setTimeout(function () {
       if (city === "Tyumen" && schoolNumber === "22") {
-        window.location.href = `../${city}${schoolNumber}.html`;
+        window.location.href = `${city}${schoolNumber}.html`;
       } else {
         alert(
           "Этой школы пока нет в доступном каталоге школ, или её не существует."
