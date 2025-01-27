@@ -468,3 +468,187 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+
+/* Мелкие телефоны (320px и выше) */
+@media (max-width: 320px) {}
+
+/* Средние телефоны (375px и выше) */
+@media (max-width: 375px) {
+
+    .hat {
+        display: flex;
+        height: 120px;
+        background-color: #6f2cf5;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .translater {
+        display: none;
+    }
+
+    .hat-container {
+        display: flex;
+        height: 120px;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .glav-section {
+        height: 600px;
+        width: 375px;
+    }
+
+    .Title-block {
+        position: absolute;
+        top: 200px;
+        width: 365px;
+        margin-left: 10px;
+    }
+
+    .Title {
+        color: #6f2cf5;
+        font-size: 50px;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    }
+
+    html,
+    body {
+        width: 375px;
+    }
+
+    .post-title {
+        font-weight: bold;
+        font-size: 23px;
+        text-shadow: 1px 1px 2px #a687f4;
+    }
+
+    .button-login {
+        width: 160px;
+
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-evenly;
+        width: 375px;
+    }
+
+    .button-buy {
+
+        width: 160px;
+    }
+
+    .Reasons-to-choose-us {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: 50px;
+        width: 375px;
+        justify-content: center;
+    }
+
+    .reason {
+        height: 120px;
+        width: 300px;
+
+        justify-content: start;
+        align-items: center;
+    }
+
+    .body-container {
+        width: 375px;
+    }
+
+    .glav-section {
+        width: 375px;
+    }
+
+    .reason-title {
+        text-align: start;
+        margin-left: 20px;
+        width: 250px;
+    }
+
+    .sec-2-container {
+        width: 375px;
+    }
+
+    .sec-2-title {
+        margin-left: 10px;
+
+    }
+
+    .reason::after {
+        font-size: 12px;
+    }
+
+    .backgraund-block {
+        height: 1100px;
+    }
+
+    .s {
+        display: none;
+    }
+
+    .sec-3-container {
+        width: 375px;
+    }
+
+    .sec-3-title {
+        position: relative;
+        top: 10px;
+        margin-left: 10px;
+
+    }
+
+    .sec-3 {
+        height: 800px;
+    }
+
+    .logo2 {
+        position: relative;
+        top: 20px;
+        left: 10px;
+    }
+
+    .phone-number1 {
+        position: relative;
+        top: 60px;
+        left: 100px;
+        width: 270px;
+    }
+
+    .phone-number2 {
+        position: relative;
+        top: 100px;
+        left: 100px;
+        width: 270px;
+    }
+
+    .email {
+        position: relative;
+        top: 140px;
+        left: 75px;
+        width: 270px;
+    }
+
+    .a {
+        display: flex;
+        width: 20px;
+    }
+
+}
+
+/* Большие телефоны (414px и выше) */
+@media (max-width: 414px) {}
+
+/* Планшеты и фаблеты (768px и выше) */
+@media (max-width: 768px) {}

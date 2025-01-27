@@ -117,3 +117,90 @@
 .b49 {}
 
 .b50 {}
+
+
+/* Мелкие телефоны (320px и выше) */
+@media (max-width: 320px) {
+    .blocs {
+        width: 200px;
+        height: 100px;
+        border-radius: 10px;
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .button-login {
+        width: 200px;
+    }
+
+    .body-wrapper {
+        position: absolute;
+        top: 150px;
+        width: 320px;
+    }
+
+    .title-s {
+        text-align: center;
+        width: 320px;
+    }
+
+    .cabinets {
+        display: flex;
+        justify-content: center;
+        width: 320px;
+    }
+
+    .name-this-project {
+        display: none;
+    }
+
+    .body-container {
+        width: 320px;
+    }
+
+    html,
+    body {
+        width: 320px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .name-this-project {
+        display: none;
+    }
+}
+
+/* Средние телефоны (375px и выше) */
+@media (max-width: 375px) {
+    .blocs {
+        width: 200px;
+        height: 100px;
+        border-radius: 10px;
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .button-login {
+        width: 200px;
+    }
+
+    .body-wrapper {
+        position: absolute;
+        top: 150px;
+    }
+
+    .title-s {
+        text-align: center;
+    }
+
+    .cabinets {
+        display: flex;
+        justify-content: center;
+    }
+
+}

@@ -41,3 +41,19 @@ a {
     align-items: center;
     text-decoration: none;
 }
+
+
+
+/* Мелкие телефоны (320px и выше) */
+@media (max-width: 320px) {}
+
+/* Средние телефоны (375px и выше) */
+@media (max-width: 375px) {
+
+    .block-function {
+        height: 160px;
+        width: 350px;
+    }
+
+}
+

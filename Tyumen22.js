@@ -19,9 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
       const humidity = getRandomValue(40, 60, 0);
 
       block.innerHTML = `
-                <p style="font-weight: bold;" >Кабинет ${index + 1}</p>
-                <p>Температура: ${temperature.toFixed(1)}°C</p>
-                <p>Влажность: ${humidity}%</p>
+                <p style="font-weight: bold;" class="p-cab">Кабинет ${index + 1}</p>
+                <p class="p-temp">Температура: ${temperature.toFixed(1)}°C</p>
+                <p class="p-vlaj">Влажность: ${humidity}%</p>
             `;
     });
   }
