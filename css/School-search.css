@@ -123,3 +123,16 @@
     }
 
 }
+
+
+@media(max-width: 414px) {
+    .body-wrapper {
+        top: 200px;
+        height: 400px;
+    }
+
+    .glav-section {
+        height: 400px;
+        width: 414px;
+    }
+}

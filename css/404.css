@@ -57,3 +57,9 @@ a {
 
 }
 
+@media (max-width: 414px) {
+    .block-function {
+        height: 160px;
+        width: 350px;
+    }
+}

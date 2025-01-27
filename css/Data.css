@@ -204,3 +204,34 @@
     }
 
 }
+
+
+@media (max-width: 414px) {
+    .blocs {
+        width: 200px;
+        height: 100px;
+        border-radius: 10px;
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .button-login {
+        width: 200px;
+    }
+
+    .body-wrapper {
+        position: absolute;
+        top: 150px;
+    }
+
+    .title-s {
+        text-align: center;
+    }
+
+    .cabinets {
+        display: flex;
+        justify-content: center;
+    }
+}
