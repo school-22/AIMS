@@ -1,0 +1,29 @@
+.wrapper-menu {
+    background-color: #F15525;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    display: none;
+}
+
+.wrapper-menu-close {
+    position: absolute;
+    top: 39px;
+    right: 27px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 105px;
+    margin-top: 125px;
+}
+
+.menu__item a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 104%;
+    text-align: center;
+    color: #fff;
+}

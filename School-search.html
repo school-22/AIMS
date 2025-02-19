@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>School-search</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="logos/logo-logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="stylesheet" href="css/School-search.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- шапка -->
+    <header class="header">
+      <div class="header__content">
+        <!-- логотип -->
+        <div class="logo">
+          <a href="#" class="logo__link"><img src="img/logo.svg" alt="logo" /></a>
+        </div>
+      </div>
+      <div class="header__btn-block">
+        <a href="404.html" class="header__sign-up">Купить</a>
+        <a href="#" class="header__log-in"><img src="img/grettings/arrow1.svg" class="arrow" alt="arrow" />Выбрать
+          школу</a>
+      </div>
+
+      <ul class="burger-menu">
+        <li class="burger-menu__line"></li>
+        <li class="burger-menu__line"></li>
+        <li class="burger-menu__line"></li>
+      </ul>
+    </header>
+    <div class="body-wrapper">
+      <section class="glav-section">
+        <div class="body-container">
+          <!-- Форма -->
+          <form id="schoolForm" class="schoolForm">
+            <div class="sitys">
+              <label class="sity" for="city">Город:</label>
+              <select class="sity-select" id="city" required>
+                <option value="">Выберите город</option>
+                <option value="Tyumen">Тюмень</option>
+                <option value="Moscow">Москва</option>
+                <option value="SaintPetersburg">Санкт-Петербург</option>
+                <option value="Novosibirsk">Новосибирск</option>
+                <option value="Yekaterinburg">Екатеринбург</option>
+                <option value="Kazan">Казань</option>
+                <option value="Chelyabinsk">Челябинск</option>
+                <option value="Omsk">Омск</option>
+                <option value="Samara">Самара</option>
+              </select><br /><br />
+            </div>
+
+            <div class="schools">
+              <label class="schoolNumber" for="schoolNumber">Номер школы:</label>
+              <input class="schoolNumber-input" type="number" id="schoolNumber" min="1" max="99" required /><br /><br />
+            </div>
+
+            <button class="btn" type="submit">Найти школу</button>
+          </form>
+
+          <!-- Анимация загрузки -->
+          <div class="loader"></div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="School-search.js"></script>
+</body>
+
+</html>
