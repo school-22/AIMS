@@ -28,6 +28,7 @@ body {
 .cabinets-table {
     width: 100%;
     border-collapse: collapse;
+    font-size: 12px;
 }
 
 .cabinets-table th,
